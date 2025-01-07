@@ -1,0 +1,68 @@
+body {
+    background: #303e44;
+    animation: colorchange 10s infinite;
+    text-align: center;
+}
+
+div.main {
+    /* Flexbox centering */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh;
+    margin: 0;
+}
+
+pre {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: min(0.9vw, 1rem);
+    text-shadow: 1.5px 1.5px #636363;
+}
+h2 {
+    font-family: "Courier New", serif; 
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: min(0.98vw, 1rem);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ff59;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 20px; /* Add space between icons */
+    font-size: 33px;
+    padding-top: 30px;
+}
+
+@keyframes colorchange
+  {
+    0%   {background: #303e44;}
+    20%  {background: #2f3144;}
+    40%  {background: #392f44;}
+    60%  {background: #442f42;}
+    80%  {background: #2f443c;}
+    100% {background: #293837;}
+  }
+
+@-webkit-keyframes colorchange
+  {
+    0%   {background: #303e44;}
+    20%  {background: #2f3144;}
+    40%  {background: #392f44;}
+    60%  {background: #442f42;}
+    80%  {background: #2f443c;}
+    100% {background: #293837;}
+  }
