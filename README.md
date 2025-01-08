@@ -1,2 +1,1 @@
-# rudyred
-Main portfolio site
+# n1ji.xyz
