@@ -39,14 +39,6 @@ a:hover {
     color: #00ff59;
 }
 
-.icon-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    gap: 20px; /* Add space between icons */
-    font-size: 33px;
-    padding-top: 30px;
-}
-
 @keyframes colorchange
   {
     0%   {background: #303e44;}
