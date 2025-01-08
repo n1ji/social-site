@@ -39,22 +39,20 @@ a:hover {
     color: #00ff59;
 }
 
-@keyframes colorchange
-  {
+@keyframes colorchange {
     0%   {background: #303e44;}
     20%  {background: #2f3144;}
     40%  {background: #392f44;}
     60%  {background: #442f42;}
     80%  {background: #2f443c;}
     100% {background: #293837;}
-  }
+}
 
-@-webkit-keyframes colorchange
-  {
+@-webkit-keyframes colorchange {
     0%   {background: #303e44;}
     20%  {background: #2f3144;}
     40%  {background: #392f44;}
     60%  {background: #442f42;}
     80%  {background: #2f443c;}
     100% {background: #293837;}
-  }
+}
