@@ -41,18 +41,20 @@ a:hover {
 
 @keyframes colorchange {
     0%   {background: #303e44;}
-    20%  {background: #2f3144;}
-    40%  {background: #392f44;}
-    60%  {background: #442f42;}
-    80%  {background: #2f443c;}
-    100% {background: #293837;}
+    15%  {background: #2f3144;}
+    30%  {background: #392f44;}
+    45%  {background: #442f42;}
+    60%  {background: #2f443c;}
+    75%  {background: #293837;}
+    100% {background: #303e44;}
 }
 
 @-webkit-keyframes colorchange {
     0%   {background: #303e44;}
-    20%  {background: #2f3144;}
-    40%  {background: #392f44;}
-    60%  {background: #442f42;}
-    80%  {background: #2f443c;}
-    100% {background: #293837;}
+    15%  {background: #2f3144;}
+    30%  {background: #392f44;}
+    45%  {background: #442f42;}
+    60%  {background: #2f443c;}
+    75%  {background: #293837;}
+    100% {background: #303e44;}
 }
