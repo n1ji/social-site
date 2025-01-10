@@ -41,20 +41,20 @@ a:hover {
 
 @keyframes colorchange {
     0%   {background: #303e44;}
-    15%  {background: #2f3144;}
-    30%  {background: #392f44;}
-    45%  {background: #442f42;}
-    60%  {background: #2f443c;}
-    75%  {background: #293837;}
+    16.6%  {background: #2f3144;}
+    33.2%  {background: #392f44;}
+    49.8%  {background: #442f42;}
+    66.4%  {background: #2f443c;}
+    83%  {background: #293837;}
     100% {background: #303e44;}
 }
 
 @-webkit-keyframes colorchange {
     0%   {background: #303e44;}
-    15%  {background: #2f3144;}
-    30%  {background: #392f44;}
-    45%  {background: #442f42;}
-    60%  {background: #2f443c;}
-    75%  {background: #293837;}
+    16.6%  {background: #2f3144;}
+    33.2%  {background: #392f44;}
+    49.8%  {background: #442f42;}
+    66.4%  {background: #2f443c;}
+    83%  {background: #293837;}
     100% {background: #303e44;}
 }
