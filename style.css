@@ -2,6 +2,7 @@ body {
     background: #303e44;
     animation: colorchange 10s infinite;
     text-align: center;
+    cursor: url('images/mainCursor.png'), auto;
 }
 
 div.main {
@@ -17,7 +18,7 @@ div.main {
 pre {
     color: #ffffff;
     font-family: monospace;
-    font-size: min(0.9vw, 1rem);
+    font-size: min(0.9vw, 0.6rem);
     text-shadow: 1.5px 1.5px #636363;
 }
 h2 {
@@ -37,6 +38,7 @@ a {
 
 a:hover {
     color: #00ff59;
+    cursor: url('images/clickCursor.png'), auto;
 }
 
 @keyframes colorchange {
