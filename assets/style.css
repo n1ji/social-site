@@ -31,7 +31,7 @@ pre {
 h1 {
     font-family: "Death Mohawk", serif;
     color: #fff;
-    font-size: 20rem;
+    font-size: min(30vw, 20em);
     font-weight: 400;
     margin: 0;
 }  
