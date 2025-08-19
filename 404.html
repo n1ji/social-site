@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>n1ji's stuff</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <div class="flex items-center justify-center min-h-screen">
-      <div class="main content-center">
-        <pre class="font-bold" style="font-size: small">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>n1ji's stuff</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/favicons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="stylesheet" href="assets/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <div class="flex items-center justify-center min-h-screen">
+            <div class="main content-center">
+                <pre class="font-bold" style="font-size: small">
 ____________/\\\________/\\\\\\\_______________/\\\____        
  __________/\\\\\______/\\\/////\\\___________/\\\\\____       
   ________/\\\/\\\_____/\\\____\//\\\________/\\\/\\\____      
@@ -42,37 +42,42 @@ ____________/\\\________/\\\\\\\_______________/\\\____
        ___________\/\\\_____\///\\\\\\\/_____________\/\\\____ 
         ___________\///________\///////_______________\///_____
     </pre
-        >
-        <h2>
-          <p class="lead">
-            Page not found: /<span id="filename" style="color: #00ff59"
-              >unknown</span
-            >
-          </p>
-        </h2>
-        <h2>Click below to return home</h2>
-        <div class="icon-container">
-          <a href="http://n1ji.xyz/">
-            <i class="fa fa-external-link-square" style="font-size: 28px"></i>
-          </a>
+                >
+                <h2>
+                    <p class="lead">
+                        Page not found: /<span
+                            id="filename"
+                            style="color: #00ff59"
+                            >unknown</span
+                        >
+                    </p>
+                </h2>
+                <h2>Click below to return home</h2>
+                <div class="icon-container">
+                    <a href="http://n1ji.xyz/">
+                        <i
+                            class="fa fa-external-link-square"
+                            style="font-size: 28px"
+                        ></i>
+                    </a>
+                </div>
+            </div>
+
+            <script>
+                // JavaScript to dynamically insert the filename
+                document.addEventListener("DOMContentLoaded", () => {
+                    // Get the current URL path
+                    const path = window.location.pathname;
+                    const filename = path.split("/").pop() || "unknown";
+
+                    // Update the span with the filename
+                    document.getElementById("filename").textContent = filename;
+                });
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/hydra-synth/dist/hydra-synth.js"></script>
+            <script src="hydra.js"></script>
+            <script src="assets/script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         </div>
-      </div>
-
-      <script>
-        // JavaScript to dynamically insert the filename
-        document.addEventListener("DOMContentLoaded", () => {
-          // Get the current URL path
-          const path = window.location.pathname;
-          const filename = path.split("/").pop() || "unknown";
-
-          // Update the span with the filename
-          document.getElementById("filename").textContent = filename;
-        });
-      </script>
-      <script src="https://cdn.jsdelivr.net/npm/hydra-synth/dist/hydra-synth.js"></script>
-      <script src="hydra.js"></script>
-      <script src="assets/script.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </div>
-  </body>
+    </body>
 </html>
