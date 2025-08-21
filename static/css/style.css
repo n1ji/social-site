@@ -1,13 +1,13 @@
 @font-face { 
     font-family: "Death Mohawk";
-    src: url('DEATHMOHAWK.OTF');
+    src: url('../DEATHMOHAWK.OTF');
 } 
 
 body {
     background: #303e44;
     animation: colorchange 10s infinite;
     text-align: center;
-    cursor: url('mainCursor.png'), auto;
+    cursor: url('/static/images/mainCursor.png'), auto;
     overflow: hidden;
 }
 
@@ -55,7 +55,7 @@ a {
 
 a:hover {
     color: #F5A9B8;
-    cursor: url('clickCursor.png'), auto;
+    cursor: url('/static/images/clickCursor.png'), auto;
 }
 
 /* Background Color Cycling */
