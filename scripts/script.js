@@ -51,19 +51,18 @@ document.addEventListener("keyup", (e) => {
 
 function changeColors() {
     const text = title.textContent;
-    const flag = flags[currentFlagIndex]; // Get the current flag
-    title.innerHTML = ""; // Clear the current text
+    const flag = flags[currentFlagIndex];
+    title.innerHTML = "";
 
-    // Create span elements for each letter
     Array.from(text).forEach((letter, index) => {
         const span = document.createElement("span");
         // Set color based on the flag's colors
         const colorIndex = index % flag.colors.length;
         span.textContent = letter;
         span.style.color = flag.colors[colorIndex];
+        span.style.textShadow = "0 0 0px #fff, 0 0 0px #ffffffff";
         title.appendChild(span);
     });
 
-    // Switch to the next flag after each Enter press
     currentFlagIndex = (currentFlagIndex + 1) % flags.length;
 }
